@@ -10,12 +10,14 @@
 
 body {
     background: hsl(233, 47%, 7%);
+  
 }
 
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 250px;
+    align-items: center;
+    height: 900px;
 }
 
 .corpo {
@@ -73,4 +75,28 @@ body em {
     background-blend-mode: multiply;
     width: 100%;
     border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 1100px) {
+    body {
+        margin: 200px 0;
+    }
+    .corpo {
+        flex-direction: column-reverse;
+        width: 500px;
+        height: 1100px;
+    }
+    .texto {
+        text-align: center;
+    }
+    .texto ul li {
+        display: block;
+        margin: 30px auto 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .imagem{
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+    }
 }
