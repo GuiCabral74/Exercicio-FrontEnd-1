@@ -1,0 +1,76 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* DESKTOP */
+
+body {
+    background: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.corpo {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    width: 1100px;
+    height: 516px;
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: flex;
+}
+
+.texto {
+    padding: 80px 70px;
+    text-align: left;
+}
+
+.texto h1 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+body em {
+    color: #aa5cdb;
+    font-style: normal;
+}
+
+.p1 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 75px;
+    line-height: 2;
+}
+
+.texto ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-right: 80px;
+}
+
+.texto ul li p{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+}
+
+.imagem {
+    background: url(./imgs/image-header-desktop.jpg) no-repeat center;
+    background-size: cover;
+    background-color: #aa5cdb;
+    background-blend-mode: multiply;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
